@@ -1,0 +1,27 @@
+name: Run analytics pipeline
+
+# Decision (per explicit request to choose best practice): scheduled batch,
+# not triggered per-request -- consistent with the batch-precompute
+# architecture decision in src/modeling/zones.py. Runs nightly; adjust cron
+# once real data cadence (e.g. self-tracker submission volume) is known.
+on:
+  schedule:
+    - cron: "0 18 * * *"  # 01:00 WIB daily
+  workflow_dispatch: {}  # manual trigger, e.g. after backfilling survey data
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run pipeline
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MAPID_API_KEY: ${{ secrets.MAPID_API_KEY }}
+        run: python run_pipeline.py

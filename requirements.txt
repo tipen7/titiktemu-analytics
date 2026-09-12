@@ -1,0 +1,36 @@
+# Geospatial core
+geopandas==1.1.4
+shapely==2.1.2
+pyproj==3.8.0
+networkx==3.6.1
+
+# OSM ingestion + network/isochrone analysis
+osmnx==2.1.1
+
+# Raster (Sentinel-2 NDBI zonal statistics)
+rasterio==1.5.1
+rasterstats==0.21.0
+
+# Spatial regression + ML
+mgwr==2.2.1
+scikit-learn==1.9.0
+xgboost==3.4.1
+
+# Data handling
+pandas==3.0.5
+numpy==2.5.3
+
+# Persistence (writes to the same Supabase Postgres+PostGIS as the backend)
+SQLAlchemy==2.0.52
+psycopg2-binary==2.9.13
+
+# Job queue (worker.py) -- per the batch-vs-live architecture decision
+rq==2.12.0
+redis==8.1.0
+
+# LLM narrative synthesis
+httpx==0.28.1
+
+# Config
+pydantic-settings==2.15.0
+python-dotenv==1.2.3
