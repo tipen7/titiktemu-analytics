@@ -5,4 +5,18 @@ __pycache__/
 .env
 *.log
 .DS_Store
+.pytest_cache/
+*.bak
+.claude/
+
+# OSM Overpass API response cache -- regenerable, ~40MB of hashed JSON
+# blobs, no reason to version-control it.
+cache/
 data/cache/
+
+# Large third-party reference datasets, fetched/supplied separately (not
+# committed -- ~140MB combined, would bloat the repo for data that isn't
+# ours to redistribute). See data/README.md for what belongs here and where
+# it comes from.
+data/administration-district/
+data/worldcover/

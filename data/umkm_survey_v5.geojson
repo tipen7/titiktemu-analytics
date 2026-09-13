@@ -1,0 +1,4922 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.897316,
+          -6.3751643,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJs9WXwvvsaS4Rw5lT0lfehfc",
+        "latitude": "-6.3751643",
+        "longitude": "106.897316",
+        "name": "MANG KABAYAN SIGNATURE",
+        "description": "Jalan Alternatif Cibubur No.12 A, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "6 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 228.3,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8973211,
+          -6.3755237,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJJQAAAKyUaS4RnVRlKyXXVHs",
+        "latitude": "-6.3755237",
+        "longitude": "106.8973211",
+        "name": "Hanamasa Cibubur",
+        "description": "Jalan Alternatif Cibubur No.KM. 1, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "7 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "200 juta",
+        "transaction_per_buyer": "150 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "70 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 253.7,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.903732,
+          -6.3756385,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJjaiG2lSTaS4RQjW2C24FPu4",
+        "latitude": "-6.3756385",
+        "longitude": "106.903732",
+        "name": "Pizza Hut Delivery - PHD Indonesia",
+        "description": "Ruko CitraMas Cibubur, Jalan Alternatif Cibubur, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "8 juta",
+        "tenant_area": "8 m x 8 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "250 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "80 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 914.7,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9037636,
+          -6.3744758,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJg9xNIansaS4RaUVKvMe0gZA",
+        "latitude": "-6.3744758",
+        "longitude": "106.9037636",
+        "name": "De Mahogany Cafe",
+        "description": "Jl. Mahogany Residence, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 901.2,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8966551,
+          -6.3705324,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ34H4wj8gai4RhUXAl3jLWyc",
+        "latitude": "-6.3705324",
+        "longitude": "106.8966551",
+        "name": "Pizza Hut Restoran",
+        "description": "SPBU Terpadu Ciracas, Jalan Akses UI Jalan Buperta, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "7.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "240 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "60 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 400.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8969267,
+          -6.3703366,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ8RIM-8HsaS4R78gGvMUwlBc",
+        "latitude": "-6.3703366",
+        "longitude": "106.8969267",
+        "name": "McDonald's Cibubur",
+        "description": "Jalan Buperta No.1, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "10 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "350 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "75 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 430.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8970444,
+          -6.3777211,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ--CHRgDtaS4R2GwhJQ0bCQU",
+        "latitude": "-6.3777211",
+        "longitude": "106.8970444",
+        "name": "Ketoprak Ayu Harjamukti",
+        "description": "Jalan Pringgondani No.27, RT.05/RW.09, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 443.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8981544,
+          -6.3769581,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJKV-L4rjtaS4RV7X4XlL-Ka8",
+        "latitude": "-6.3769581",
+        "longitude": "106.8981544",
+        "name": "Kita Daging Mas",
+        "description": "Cibubur Point Automotive Center, Blok B8, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "4 juta",
+        "tenant_area": "4 m x 10 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "80 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "60 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 432.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8982205,
+          -6.3766473,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ22RMpafsaS4RnT1nF91IVAQ",
+        "latitude": "-6.3766473",
+        "longitude": "106.8982205",
+        "name": "Depot Soto Kediri",
+        "description": "Cibubur Point, Jalan Alternatif Cibubur No.3 Blok B, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 412.1,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.897982,
+          -6.376459,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJI5PkqKfsaS4Rx_s0U9982Xc",
+        "latitude": "-6.376459",
+        "longitude": "106.897982",
+        "name": "Bakpao Pelangi",
+        "description": "Jalan Alternatif Cibubur No.11, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "15 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 378.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8985524,
+          -6.3768322,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ25Pou6fsaS4RqtRx1IgpTtY",
+        "latitude": "-6.3768322",
+        "longitude": "106.8985524",
+        "name": "Kantin Sehat Cibubur Point",
+        "description": "JVFX+7C7, Jalan Alternatif Cibubur, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 452.6,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8974964,
+          -6.3759742,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJmecXOgDtaS4R5Ajv8Ers_Ts",
+        "latitude": "-6.3759742",
+        "longitude": "106.8974964",
+        "name": "Soto ayam ruko depan",
+        "description": "Ruko rafles depan pos satpam, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "75 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "8 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 302.7,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8974964,
+          -6.3759742,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXU_o0z7taS4Ret2GJ5vOlGY",
+        "latitude": "-6.3759742",
+        "longitude": "106.8974964",
+        "name": "Soto Ambengan",
+        "description": "JVFW+JX9, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "4.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 302.7,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8974597,
+          -6.3789492,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJlbmLbQDraS4RSK0MHje0tzg",
+        "latitude": "-6.3789492",
+        "longitude": "106.8974597",
+        "name": "Kuliner Malam Kurma B",
+        "description": "Kuliner Malam kurma B, Cibubur",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "20-30 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "5 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 587.8,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8982312,
+          -6.3759942,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ51QyBgDtaS4RHd1xtU3gHiI",
+        "latitude": "-6.3759942",
+        "longitude": "106.8982312",
+        "name": "Bakso Son Hajisony Cibubur",
+        "description": "Jalan Alternatif Cibubur No.10, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "160 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 364.5,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8980553,
+          -6.3759186,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJYaDCLZftaS4R8cT91fOEZ5s",
+        "latitude": "-6.3759186",
+        "longitude": "106.8980553",
+        "name": "Seafood One Usaha Baru",
+        "description": "Jalan Alternatif Cibubur No.12A, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "5.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "80 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 344.0,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8986829,
+          -6.3762445,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJrSq88xTtaS4RdlhuD0bjbv4",
+        "latitude": "-6.3762445",
+        "longitude": "106.8986829",
+        "name": "Harmony Juice & Salad Bar - Cibubur",
+        "description": "Jalan Alternatif Cibubur No.9B, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "3-6 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 421.1,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8988977,
+          -6.3763043,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJDYGjPADraS4RROIupvG4zDc",
+        "latitude": "-6.3763043",
+        "longitude": "106.8988977",
+        "name": "Mie ayam rahayu Lampung",
+        "description": "JVFX+FHC, Jalan Pringgodani, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "15 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 444.2,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8986862,
+          -6.3758939,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJa7hrDhHtaS4RjsTYEK0KooE",
+        "latitude": "-6.3758939",
+        "longitude": "106.8986862",
+        "name": "Bun Pao",
+        "description": "Jl Alternatif Cibubur no. 8c, Kav DDN No.65, Harjamukti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 399.4,
+        "nearest_station_verified": "harjamukti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9359093,
+          -6.4052942,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJqVyENwCVaS4R7OMW1dMT940",
+        "latitude": "-6.4052942",
+        "longitude": "106.9359093",
+        "name": "Warung Omah Joglo SiMbok",
+        "description": "HWVP+V9M, RT.001/RW.010, Tlajung Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "4-7 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "70 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4602.5,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9358336,
+          -6.4051818,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ1dP-KQCVaS4Rb4WpmGo9Gio",
+        "latitude": "-6.4051818",
+        "longitude": "106.9358336",
+        "name": "SEAFOOD IFAZAH 68",
+        "description": "HWVP+W8M, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "500 ribu - 1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga, pejalan kaki",
+        "revenue_per_month": "10 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4603.3,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9358395,
+          -6.4050087,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJNW-BNGOVaS4RELggLT03mUw",
+        "latitude": "-6.4050087",
+        "longitude": "106.9358395",
+        "name": "NASGOR BERKAH BEJO",
+        "description": "HWVP+X8W, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "300-500 ribu",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki",
+        "revenue_per_month": "6-8 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4615.3,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9358425,
+          -6.4050043,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJIz2feMKUaS4RNNQlasS5hFg",
+        "latitude": "-6.4050043",
+        "longitude": "106.9358425",
+        "name": "PAK DE BEJO",
+        "description": "Indonesia",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1 - 1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki",
+        "revenue_per_month": "15-20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4615.9,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356875,
+          -6.4053125,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJM_EkKACVaS4Ry5VG95xVhH8",
+        "latitude": "-6.4053125",
+        "longitude": "106.9356875",
+        "name": "WARKOP AGAM MEDAN CIKEAS",
+        "description": "Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "6-8 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "220 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4581.6,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9359034,
+          -6.4048652,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJSd_s1LGVaS4Rto4pGHe2DJU",
+        "latitude": "-6.4048652",
+        "longitude": "106.9359034",
+        "name": "Bakmi jogja cipto roso",
+        "description": "HWWP+392, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "3-4 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "100-120 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4630.6,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9359012,
+          -6.4048641,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJN8dOXdeVaS4RjgPR750aqKA",
+        "latitude": "-6.4048641",
+        "longitude": "106.9359012",
+        "name": "Bakso Metropole 2",
+        "description": "HWWP+28H, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "300-500 ribu",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga",
+        "revenue_per_month": "5-7 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4630.5,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356555,
+          -6.405031,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJVTmfWm6VaS4RGwTSn-eO9Xw",
+        "latitude": "-6.405031",
+        "longitude": "106.9356555",
+        "name": "Pisang tanduk kremes Mama adit",
+        "description": "HWVP+X7J, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500-1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4597.6,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356164,
+          -6.4051095,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJe8XsQQCVaS4RGrFvONra1Z8",
+        "latitude": "-6.4051095",
+        "longitude": "106.9356164",
+        "name": "Sambal Rampai 99",
+        "description": "HWVP+W72, Unnamed Road, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pejalan kaki, warga",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4588.9,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.935586,
+          -6.405414,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ52w9fsKUaS4RSq05LUMRvbc",
+        "latitude": "-6.405414",
+        "longitude": "106.935586",
+        "name": "warung bubur cianjur & soto kuning",
+        "description": "HWVP+R6P, Jalan Akses Tol Cimanggis, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "800-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "15-20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4565.9,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.935454,
+          -6.4052823,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJh4E7CACVaS4RN3atVAocaHY",
+        "latitude": "-6.4052823",
+        "longitude": "106.935454",
+        "name": "Sate Ayam Kambing Madura",
+        "description": "HWVP+V5P, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "30-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4563.0,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9355836,
+          -6.4056704,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJpSpAgcKUaS4ROLz3arcyMvg",
+        "latitude": "-6.4056704",
+        "longitude": "106.9355836",
+        "name": "Bubur Jamu Komplit Mirasa",
+        "description": "Indonesia",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "300 ribu - 1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, warga",
+        "revenue_per_month": "6-8 juta",
+        "transaction_per_buyer": "15 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4548.7,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9353972,
+          -6.4052522,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJJYHKfMKUaS4RWs2UShvj7vU",
+        "latitude": "-6.4052522",
+        "longitude": "106.9353972",
+        "name": "Salira Ayam Bakar Kalasan",
+        "description": "HWVP+V5P, Jalan Akses Tol Cimanggis No.13, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1.5-2.5 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "warga",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4560.0,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9353972,
+          -6.405252,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJC7OiElOVaS4Rrwg4SDGtFWI",
+        "latitude": "-6.405252",
+        "longitude": "106.9353972",
+        "name": "Pecel lele Nur indah jaya",
+        "description": "Jalan Akses Tol Cimanggis No.21, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "warga",
+        "revenue_per_month": "30-40 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4560.0,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9356628,
+          -6.4058224,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJt7JCgcKUaS4RHhbU568MR28",
+        "latitude": "-6.4058224",
+        "longitude": "106.9356628",
+        "name": "Rm Nazwa Minang",
+        "description": "Jalan Letda Nasir, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "10-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4545.7,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9353816,
+          -6.4054815,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJGYM9AwCVaS4ReDPMnl5w5UU",
+        "latitude": "-6.4054815",
+        "longitude": "106.9353816",
+        "name": "Bubur sumsum candil Cikeas polri",
+        "description": "Jalan Akses Tol Cimanggis, Cikeas Udik",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "500 ribu - 1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga, pejalan kaki",
+        "revenue_per_month": "10 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 4543.3,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8553675,
+          -6.5237027,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJlRyiBFTBaS4RLFk0SMPBFeg",
+        "latitude": "-6.5237027",
+        "longitude": "106.8553675",
+        "name": "FU Soup & Noodle Bar",
+        "description": "CBD, Kavling Commercial Area 1, Jalan Surya Raya Jalan Olympic Raya, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "2.5-3-5 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "warga, pekerja kantoran",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1360.9,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8574982,
+          -6.5249473,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXaMu2qLBaS4Rf_bZbddhOX0",
+        "latitude": "-6.5249473",
+        "longitude": "106.8574982",
+        "name": "Soto Seger Salatiga",
+        "description": "Jalan Raya Sirkuit Sentul No.12, RT.04/RW.02, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "4-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga, pejalan kaki",
+        "revenue_per_month": "130 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1216.2,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.857897,
+          -6.5247125,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJZQ563CTBaS4RYnnMfl3q6R0",
+        "latitude": "-6.5247125",
+        "longitude": "106.857897",
+        "name": "Warteg Kharisma Bahari",
+        "description": "Indonesia",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "10-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1245.8,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8575109,
+          -6.5252351,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJV0U8mGHBaS4R02ZVi8j0RPE",
+        "latitude": "-6.5252351",
+        "longitude": "106.8575109",
+        "name": "SEAFOOD 2 PUTRA",
+        "description": "depan pintu masuk sirkuit kecil/ gokar, Jalan Raya Sirkuit Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "2-3.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "45 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1184.3,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8575073,
+          -6.5252399,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJY6evX23BaS4RHhIfNCCxdbY",
+        "latitude": "-6.5252399",
+        "longitude": "106.8575073",
+        "name": "Nasi Goreng Mas Yono",
+        "description": "FVF5+W22, Jalan Tangkil - Agrabinta, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2-3 tahun",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1183.8,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8575098,
+          -6.5252512,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJj0Rl2prBaS4RPckTYCrt-8E",
+        "latitude": "-6.5252512",
+        "longitude": "106.8575098",
+        "name": "WARTEG PUTRA BAHARI 142",
+        "description": "FVF5+V2R, Jalan Tangkil - Agrabinta, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "warga, pejalan kaki",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "10-25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1182.5,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.857171,
+          -6.5254905,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJdWo88jfBaS4R64_atZiG3rw",
+        "latitude": "-6.5254905",
+        "longitude": "106.857171",
+        "name": "Ketoprak Moro Seneng",
+        "description": "Jalan Raya Sirkuit Sentul No.24, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "20-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "30-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1154.0,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8582291,
+          -6.524143,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ-2TtuFXBaS4R96o84keRCeA",
+        "latitude": "-6.524143",
+        "longitude": "106.8582291",
+        "name": "Gang Warung Nasi Sunda",
+        "description": "Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500-1.5 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "10-20 juta",
+        "transaction_per_buyer": "10-35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1312.8,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8582308,
+          -6.523825,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJV0_FDiLBaS4RF6YNt6xEaEQ",
+        "latitude": "-6.523825",
+        "longitude": "106.8582308",
+        "name": "ASINAN BOGOR EVI",
+        "description": "Jalan Pahlawan No.474, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "800-1 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "30-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1347.9,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8572102,
+          -6.5256076,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ5709e0vBaS4RrDY91AsyUi8",
+        "latitude": "-6.5256076",
+        "longitude": "106.8572102",
+        "name": "SOTO BOGOR APIH ANANG",
+        "description": "FVF4+QV4, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "45 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1141.1,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8582687,
+          -6.5240452,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ8-_zEyLBaS4RojF62gNCO-c",
+        "latitude": "-6.5240452",
+        "longitude": "106.8582687",
+        "name": "RM.Karya Baru",
+        "description": "FVG5+98J, Jalan Raya Sirkuit Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "10-40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1324.1,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8583374,
+          -6.5238737,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJYQWUYwDBaS4RE4nx7IGbdrE",
+        "latitude": "-6.5238737",
+        "longitude": "106.8583374",
+        "name": "AYAM PENYET PRIBUMI CABANG 3",
+        "description": "FVG5+F84, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "35-40 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1344.0,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8568272,
+          -6.5259416,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ9YEnRPjBaS4RVhuVTZ5AtcI",
+        "latitude": "-6.5259416",
+        "longitude": "106.8568272",
+        "name": "Nasi Goreng Panorama",
+        "description": "Unnamed Road, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "20-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1103.0,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8566397,
+          -6.5260645,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJda-scQDBaS4RQIloyKQrIVw",
+        "latitude": "-6.5260645",
+        "longitude": "106.8566397",
+        "name": "Nasi Bebek Sirkuit",
+        "description": "Jalan Raya Sirkuit Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "20-40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1089.4,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8585129,
+          -6.5234699,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJzdditWjBaS4R5G__v_mjeSU",
+        "latitude": "-6.5234699",
+        "longitude": "106.8585129",
+        "name": "Balissan Local Bistro",
+        "description": "Jalan Raya Sirkuit Sentul, Leuwinutug",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "90-100 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1391.1,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8565771,
+          -6.5317368,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJbdkJpiXBaS4RmRMwnv9CWaE",
+        "latitude": "-6.5317368",
+        "longitude": "106.8565771",
+        "name": "TROPHY RESTO",
+        "description": "Lorin Sentul, Kawasan Sirkuit Sentul Internasional Exit Toll Sirkuit Sentul Km.32 Jagorawi Citeureup, Sentul Babakan Madang 2nd Building LORIN Sentul Hotel, Jalan Tol Jagorawi No.Km.32, Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "5-10 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "180- 200 juta",
+        "transaction_per_buyer": "100 ribu",
+        "rent_trend": "5%",
+        "rent_price_annual (per tahun)": "70 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 459.1,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8538515,
+          -6.5316229,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJQ9IDBADBaS4RsogYT2VdCcY",
+        "latitude": "-6.5316229",
+        "longitude": "106.8538515",
+        "name": "Pecel Ayam & Lele Lek Dalijo",
+        "description": "Jalan Raya Sirkuit Sentul No.188, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 571.5,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8538929,
+          -6.5314226,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJc8khzpDBaS4ROsY1KBIx7Oo",
+        "latitude": "-6.5314226",
+        "longitude": "106.8538929",
+        "name": "RM. Warung Jambu Ibu Hj. Nyai",
+        "description": "Jalan Raya Sirkuit Sentul No.Kel, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2-3 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 587.5,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8539273,
+          -6.5318076,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJrUy3htzBaS4RrPtgWWenY6Y",
+        "latitude": "-6.5318076",
+        "longitude": "106.8539273",
+        "name": "Bakso Ompong",
+        "description": "Jalan Raya Sirkuit Sentul No.12, RT.04/RW.01, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2-3 tahun",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 549.8,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8539426,
+          -6.5318164,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJOZV2iFnBaS4RNb2QHOnL9-g",
+        "latitude": "-6.5318164",
+        "longitude": "106.8539426",
+        "name": "Bakso KampungQu Sentul",
+        "description": "Jalan Raya Sirkuit Sentul No.12, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "3- 5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "120 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 548.1,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8540312,
+          -6.5316255,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJS_Pa31vBaS4Rw_3UH8lWdkA",
+        "latitude": "-6.5316255",
+        "longitude": "106.8540312",
+        "name": "Soto mie asli Bogor karaos",
+        "description": "Jalan Raya Sirkuit Sentul No.66, RT.02/RW.01, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "300 ribu -1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "10-15 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 560.3,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8540411,
+          -6.5316249,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJp5aoNgDBaS4Rbui6GUATjR4",
+        "latitude": "-6.5316249",
+        "longitude": "106.8540411",
+        "name": "Es O���yen dan Siomay Bandung ",
+        "description": "Sanja, Jalan Raya Sirkuit Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 559.7,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8538815,
+          -6.5319731,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJh1J9wyTBaS4Rb7rswoL8Z9E",
+        "latitude": "-6.5319731",
+        "longitude": "106.8538815",
+        "name": "Martabak Bangka Air Mancur",
+        "description": "JL Raya Sentul, RT 2 RW 1, Kadumangu, Babakan Madang, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 537.9,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8536751,
+          -6.5321459,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJJWeJegDBaS4RJBn59YLZKBM",
+        "latitude": "-6.5321459",
+        "longitude": "106.8536751",
+        "name": "Bubur Ayam Sentul Djokomulyo",
+        "description": "Jalan Raya Sirkuit Sentul No.50, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1 - 1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 536.8,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8536103,
+          -6.5321819,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJFSdQMSXBaS4RUFiq21p3kuk",
+        "latitude": "-6.5321819",
+        "longitude": "106.8536103",
+        "name": "Warung Sate Pak Min",
+        "description": "Jalan Raya Sirkuit Sentul No.09, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1.5-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 538.4,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8538427,
+          -6.532115,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJB2ThMCXBaS4RX1U_lvS3vjU",
+        "latitude": "-6.532115",
+        "longitude": "106.8538427",
+        "name": "Bundo Kito Resto",
+        "description": "FV93+5G4, Babakan Madang Citeureup, Jalan Raya Sirkuit Sentul, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "4 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 527.9,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8540277,
+          -6.531057,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJeZEFGEDBaS4RNjD8BzKB9pI",
+        "latitude": "-6.531057",
+        "longitude": "106.8540277",
+        "name": "Kuliner pedas aisyah",
+        "description": "FV93+HJC, Sentul",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 614.5,
+        "nearest_station_verified": "sentul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8381629,
+          -6.5779926,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ5Xv0qxDHaS4RkKe-N60NREE",
+        "latitude": "-6.5779926",
+        "longitude": "106.8381629",
+        "name": "Warung Wengi",
+        "description": "Kp Jalan Babulak No.RT02/03, Cadas Ngampar",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500-1 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "10-20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1417.8,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8381099,
+          -6.5777188,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJtZ9yVQDFaS4R2ODsxkHg4_A",
+        "latitude": "-6.5777188",
+        "longitude": "106.8381099",
+        "name": "Seblak gonjreng",
+        "description": "CRCQ+W69, RT.02/RW.03, Bubulak",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "500-800 ribu",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "15 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1428.8,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8389544,
+          -6.5786764,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJKTUWQADHaS4RrnBt3hruY-Y",
+        "latitude": "-6.5786764",
+        "longitude": "106.8389544",
+        "name": "Laksa Pa Sanim Cijulang",
+        "description": "CRCQ+GHG, Jalan Raya Cijulang, Cadas Ngampar",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "800 ribu",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "4%",
+        "rent_price_annual (per tahun)": "2 juta/5 hari",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1457.7,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8380113,
+          -6.5761375,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJkT6wcI3GaS4RsTdSW8ICuXM",
+        "latitude": "-6.5761375",
+        "longitude": "106.8380113",
+        "name": "Sate Kiloan PSK",
+        "description": "rest area KM 38, 2, RW.50, Cimahpar",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "5-7 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "200 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1521.2,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8379191,
+          -6.5761697,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJsUu3Kg_HaS4RxE438PzqGxg",
+        "latitude": "-6.5761697",
+        "longitude": "106.8379191",
+        "name": "Makanan Khas SUNDA (Ibu haji cijantung d/h CIGANEA)",
+        "description": "rest area KM 38, 2, RW.50, Cimahpar",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2-4 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "70 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1511.0,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8380567,
+          -6.5759041,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJcdY0vMvHaS4RgVAhi7N_q7I",
+        "latitude": "-6.5759041",
+        "longitude": "106.8380567",
+        "name": "A Fung Bakso Sapi Asli - Rest Area KM 38",
+        "description": "CRFQ+J6M, Cimahpar",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "4-8 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "150-200 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1541.2,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8381676,
+          -6.5755955,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJQU8XbQDHaS4Rkj9EvlRjIFI",
+        "latitude": "-6.5755955",
+        "longitude": "106.8381676",
+        "name": "Kedai Ayam Taliwang",
+        "description": "CRFQ+Q69, Cimahpar",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50-60 juta",
+        "transaction_per_buyer": "80 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "45 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1572.4,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8382048,
+          -6.5754809,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJT3MPx_XHaS4RVC-EdmZ_wEs",
+        "latitude": "-6.5754809",
+        "longitude": "106.8382048",
+        "name": "Cak Karto",
+        "description": "Rest Area.KM. 38, Cimahpar",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "80 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1583.6,
+        "nearest_station_verified": "cimahpar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8107168,
+          -6.6063248,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJU6EB793FaS4RMI2V3kn76MU",
+        "latitude": "-6.6063248",
+        "longitude": "106.8107168",
+        "name": "Bebek & Ayam Goreng Pak Ndut",
+        "description": "Jalan Bina Marga No.17, RT.04/RW.11, Baranangsiang",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "4-6 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "120 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 603.9,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8081691,
+          -6.604698,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ2fSQbNzFaS4RdZObfGJrm18",
+        "latitude": "-6.604698",
+        "longitude": "106.8081691",
+        "name": "Asinan Nyonya Yenny",
+        "description": "Jalan Bina Marga No.1, RT.04/RW.11, Baranangsiang",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "80 juta",
+        "transaction_per_buyer": "65 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 936.2,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.810501,
+          -6.6032986,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJH9XeatzFaS4RRQl4plQ6ykg",
+        "latitude": "-6.6032986",
+        "longitude": "106.810501",
+        "name": "Adamar Kitchen and Lounge",
+        "description": "Jalan Bina Marga No.8, RT.04/RW.11, Baranangsiang",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "5 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "160 juta",
+        "transaction_per_buyer": "120 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 875.6,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8118147,
+          -6.6060081,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXz--_d3FaS4RkSLLvacfNeg",
+        "latitude": "-6.6060081",
+        "longitude": "106.8118147",
+        "name": "Bakul Bakul Resto",
+        "description": "Jalan Ciheuleut No.14, RT.04/RW.11, Baranangsiang",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "50 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 545.9,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8087748,
+          -6.6022135,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJRZopgNzFaS4RS39exwDhinE",
+        "latitude": "-6.6022135",
+        "longitude": "106.8087748",
+        "name": "Sudut Temu (ToasTea)",
+        "description": "Jalan Cirahayu No.14, RT.04/RW.05, Tegallega",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "5-7 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1085.1,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8057926,
+          -6.6034603,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJfS8sTMPFaS4RFHu38yRxH94",
+        "latitude": "-6.6034603",
+        "longitude": "106.8057926",
+        "name": "Martabak Mini",
+        "description": "Jalan Raya Pajajaran No.9, RT.04/RW.02, Baranangsiang",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "500 ribu-1.5 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "12 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1228.9,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8061615,
+          -6.6025458,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJX_zfTcPFaS4RyXPrNzCZR1g",
+        "latitude": "-6.6025458",
+        "longitude": "106.8061615",
+        "name": "Kopi Oey Bogor",
+        "description": "Gedung Himpunan Alumni IPB, Jalan Cidangiang No.1, RT.04/RW.05, Tegallega",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "4 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "150 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1259.4,
+        "nearest_station_verified": "baranangsiang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8939423,
+          -6.4424169,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ3beFdkjraS4Rg9KTlbAyXoM",
+        "latitude": "-6.4424169",
+        "longitude": "106.8939423",
+        "name": "Gerai Cak Romli",
+        "description": "HV5V+2HP, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1673.0,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8942046,
+          -6.4431024,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJWxHKMmfraS4R5uYuehV-KUA",
+        "latitude": "-6.4431024",
+        "longitude": "106.8942046",
+        "name": "Mie Ayam & Bakso Permata",
+        "description": "Jalan Safir No.1, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500 ribu - 1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1720.9,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8923763,
+          -6.4419856,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJlYxHEL_qaS4R4GrBtlSRjRs",
+        "latitude": "-6.4419856",
+        "longitude": "106.8923763",
+        "name": "Warung Nasi Uduk Mak Saroh",
+        "description": "Jalan Kampung Cikuda, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1739.4,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8934938,
+          -6.4414397,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJu8O4ynTraS4Rzybo66-9z_E",
+        "latitude": "-6.4414397",
+        "longitude": "106.8934938",
+        "name": "Mie Ayam Cak Manyun",
+        "description": "HV5V+C9H, Jalan Pancasila, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "500 ribu-1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "15 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1614.6,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8935369,
+          -6.4414376,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ6X4dYl3raS4RGjNTHan-vXk",
+        "latitude": "-6.4414376",
+        "longitude": "106.8935369",
+        "name": "Nasi Kuning Barokah",
+        "description": "HV5V+CC7, Jalan Pancasila Bojong Nangka, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "10-20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1611.4,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8921954,
+          -6.4431655,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJoZH8EQDraS4RUxehLKazAL8",
+        "latitude": "-6.4431655",
+        "longitude": "106.8921954",
+        "name": "Warkop GEMOY dan seblak",
+        "description": "Jalan Kampung Cikuda Gang Cikuda, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1-5-2 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1854.1,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8948753,
+          -6.4427676,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJM3QhxUvraS4R1PENleY1CKs",
+        "latitude": "-6.4427676",
+        "longitude": "106.8948753",
+        "name": "warung NORMALin!",
+        "description": "Jalan Zamrud II, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1650.5,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8947096,
+          -6.441784,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJmXb_eQDraS4RQmeB5wFu0xI",
+        "latitude": "-6.441784",
+        "longitude": "106.8947096",
+        "name": "Takoyaki dan sticky milk seasix",
+        "description": "Jalan Pancasila, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "500 ribu-1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "10 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1567.4,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8914318,
+          -6.441883,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJO7WFP_3raS4RFwaKYCe14U4",
+        "latitude": "-6.441883",
+        "longitude": "106.8914318",
+        "name": "seblak bilah",
+        "description": "Jalan Tol Jagorawi No.39, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "300-900 ribu",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "9 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1799.8,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8952221,
+          -6.4418963,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJF69jwPbraS4RsSk23CPkruM",
+        "latitude": "-6.4418963",
+        "longitude": "106.8952221",
+        "name": "AYAM GEPREKKU",
+        "description": "Samping toko matrial, Jalan Pancasila RT. 31, RW. 14, samping Gerbang, Jalan Villa Permata Mas Raya Jalan Kampung Cikuda No.2, Bojong Nangka",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1547.7,
+        "nearest_station_verified": "bojong_nangka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8198247,
+          -6.3885504,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJz9Efbv7raS4R-_nYOhZBPt4",
+        "latitude": "-6.3885504",
+        "longitude": "106.8198247",
+        "name": "Seafood Tresno Joyo",
+        "description": "Jalan Ridwan Rais No.109, Kemiri Muka",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "15 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 2379.6,
+        "nearest_station_verified": "kemiri_muka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8250545,
+          -6.3897968,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJC3RPavvraS4RQzot3-TIi5w",
+        "latitude": "-6.3897968",
+        "longitude": "106.8250545",
+        "name": "kantin ojolali",
+        "description": "pusat auto part ramanda, Jalan Margonda Raya, Depok",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 2057.9,
+        "nearest_station_verified": "kemiri_muka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82169,
+          -6.39113,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJR-1oSgDraS4R8-Nl8N5pr8I",
+        "latitude": "-6.39113",
+        "longitude": "106.82169",
+        "name": "Bubur Ayam Stasiun Depok Baru",
+        "description": "JR5C+GMW, Jalan Stasiun Depok Baru, Depok",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 2416.6,
+        "nearest_station_verified": "kemiri_muka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8216616,
+          -6.391212,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ0YNlKgqTaS4R1sJVHxMh4Gk",
+        "latitude": "-6.391212",
+        "longitude": "106.8216616",
+        "name": "Martabak Sebayu",
+        "description": "Jalan Wibawa Mukti II RT.004/RW.006, Jatiasih",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 2425.3,
+        "nearest_station_verified": "kemiri_muka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8218898,
+          -6.391132,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJc3Sa7GnraS4RNBHioPAwwP0",
+        "latitude": "-6.391132",
+        "longitude": "106.8218898",
+        "name": "Burger SD Stasiun DepokBaru",
+        "description": "Stasiun depok baru, Depok",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 2401.4,
+        "nearest_station_verified": "kemiri_muka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8045228,
+          -6.4468485,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJG4_Tv-3paS4R5f3AZf2aP5Q",
+        "latitude": "-6.4468485",
+        "longitude": "106.8045228",
+        "name": "risya aqiqah",
+        "description": "jl.utan jaya rt 08 rw 04 no 89 kelurahan utan jaya kec.cipayung, Rawa Panjang",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "500 ribu-1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "10 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 880.4,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7996166,
+          -6.4511618,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJLdmK0OjpaS4RwiPTw7rvkdQ",
+        "latitude": "-6.4511618",
+        "longitude": "106.7996166",
+        "name": "RM. Padang Tiga Saudara",
+        "description": "Pasar Citayam Blok BE No. 38-40, Jl. Raya Citayam, Pancoran Mas, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20-25 juta",
+        "transaction_per_buyer": "20-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1346.1,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.802323,
+          -6.4485815,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJZXo3CQDpaS4R4xfPGqzjr1w",
+        "latitude": "-6.4485815",
+        "longitude": "106.802323",
+        "name": "Susu Mbok Darmi, Stasiun Citayam",
+        "description": "Stasiun Citayam, Pabuaran, Bojong Gede, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "2.5-3.5 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "60 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "35 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1031.5,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021237,
+          -6.4486045,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ537k0wvpaS4RiOYeZk48hkQ",
+        "latitude": "-6.4486045",
+        "longitude": "106.8021237",
+        "name": "DOBELLYS FRIED CHICKEN ST. CITAYAM Pintu Barat",
+        "description": "Stasiun Citayam, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "2-4 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "55 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1033.7,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8025307,
+          -6.4488234,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJh02eQgDpaS4RG-Kqk4Iircg",
+        "latitude": "-6.4488234",
+        "longitude": "106.8025307",
+        "name": "HAHApy chicken - Citayam",
+        "description": "Jalan Raya Citayam No.58, Pabuaran",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "800 ribu - 1 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1059.2,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8021194,
+          -6.4482433,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ4bffm-7paS4RVNuKfS_oFvk",
+        "latitude": "-6.4482433",
+        "longitude": "106.8021194",
+        "name": "Mie Ayam Bakso Liqa-Liqu",
+        "description": "Jalan Raya Citayam Jalan Kampung Lio, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "15 juta",
+        "transaction_per_buyer": "20-25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 993.6,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8026918,
+          -6.4486667,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJw3Etgu7paS4Rfv4h5JIDPVo",
+        "latitude": "-6.4486667",
+        "longitude": "106.8026918",
+        "name": "Bakso & Mie Ayam Bang Eddy",
+        "description": "Jalan Raya Citayam No.60, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500 ribu-1.2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "12-15 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1042.7,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.802522,
+          -6.448883,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJCRwF2ZXpaS4RktnouuvHO8k",
+        "latitude": "-6.448883",
+        "longitude": "106.802522",
+        "name": "Makaroni Ngehe Express St. Citayam",
+        "description": "Jalan Raya Citayam Jalan Lebak Pos, Pabuaran",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "30-40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1065.7,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8027604,
+          -6.4484346,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJzRVaeADpaS4RoKjtIYLihBg",
+        "latitude": "-6.4484346",
+        "longitude": "106.8027604",
+        "name": "Pecel Lele D1 Citayam",
+        "description": "HR23+J4R, Jalan Raya Citayam, Ratu Jaya",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1-1.8 juta",
+        "tenant_area": "4 m x 10 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "20-22 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1017.5,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8027861,
+          -6.4484197,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJy9LAS9LpaS4RNJoNid7Iz-U",
+        "latitude": "-6.4484197",
+        "longitude": "106.8027861",
+        "name": "Sate Kambing Priangan",
+        "description": "Jalan Raya Citayam No.30, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "500 ribu-1.25 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "15 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1016.1,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.801989,
+          -6.4488993,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJfWLiMQDpaS4RwPVp168EMgo",
+        "latitude": "-6.4488993",
+        "longitude": "106.801989",
+        "name": "SUKAKU Stasiun Citayam",
+        "description": "HR22+CQX, Jl. Kampung Pos Jalan Raya Citayam, Pabuaran",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1066.6,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8026898,
+          -6.4489495,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJUQQ0TQDpaS4RKBm40F5gL40",
+        "latitude": "-6.4489495",
+        "longitude": "106.8026898",
+        "name": "Dons Burger Stasiun Citayam",
+        "description": "HR23+C3G, Jalan Raya Citayam, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.5 - 2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1074.1,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8022403,
+          -6.4479786,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ1fbtrT3paS4RnHjsqikZs8c",
+        "latitude": "-6.4479786",
+        "longitude": "106.8022403",
+        "name": "Don King Fried chicken",
+        "description": "Jalan Lebak Pos, Bojong Pondok Terong",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "25-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 964.3,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8029684,
+          -6.4484694,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJcXUNOOLpaS4RB9r-p-NTxaM",
+        "latitude": "-6.4484694",
+        "longitude": "106.8029684",
+        "name": "Brother Dimsum",
+        "description": "Gang sebelah sungai Jalan Mushalla Al-Anwar, Pabuaran",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "300-500 ribu",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "6-10 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1023.3,
+        "nearest_station_verified": "bojong_pondok_terong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8894293,
+          -6.3119265,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJlVRIG0LtaS4RxC9mMRQ5ITI",
+        "latitude": "-6.3119265",
+        "longitude": "106.8894293",
+        "name": "RM ARI INDAH",
+        "description": "Jalan SMP 160 No.32 7, RT.7/RW.3, Ceger",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "15-20 juta",
+        "transaction_per_buyer": "20-40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1343.5,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8892778,
+          -6.3122785,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJyR04nkHtaS4RhtZsNIlO2oY",
+        "latitude": "-6.3122785",
+        "longitude": "106.8892778",
+        "name": "Warteg bumbu desa",
+        "description": "Jalan SMP 160 No.28 RW.3 RT 7, RT.3/RW.1, Ceger",
+        "tenant_type": "umkm-tetap",
+        "period": "7 bulan",
+        "transaction_per_day": "1-2.5 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1301.6,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8872721,
+          -6.3044031,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJv1iWdGftaS4Ru-Fc_8znglA",
+        "latitude": "-6.3044031",
+        "longitude": "106.8872721",
+        "name": "Warung Tekko Green Terrace",
+        "description": "Jalan Raya Mabes Hankam No.19, Bambu Apus",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "4-6 juta",
+        "tenant_area": "4 m x 10 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "140 juta",
+        "transaction_per_buyer": "80 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "65 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1482.5,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.884045,
+          -6.309981,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJp6F_iRPtaS4RW2TGWFrtUos",
+        "latitude": "-6.309981",
+        "longitude": "106.884045",
+        "name": "Rumah Makan Thamrin Khas Batak",
+        "description": "Terminal Kampung Rambutan, Jalan Terminal Kampung Rambutan RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1553.4,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8839949,
+          -6.3101495,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJUYHUKmHtaS4RCPPdGNJk6CI",
+        "latitude": "-6.3101495",
+        "longitude": "106.8839949",
+        "name": "Dapoer Destik Ya'ahowu",
+        "description": "Ruang Tunggu Terminal AKAP, Jalan Terminal Kampung Rambutan kp RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "15 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1536.1,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8834332,
+          -6.3090995,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJIwAzXnftaS4R_dgG0VDjmP4",
+        "latitude": "-6.3090995",
+        "longitude": "106.8834332",
+        "name": "Warung ibu Ratna",
+        "description": "MVRM+997, Jalan Manunggal II RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "300-800 ribu",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "10-12 juta",
+        "transaction_per_buyer": "10 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1663.2,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8832192,
+          -6.3092682,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJbahJIk_taS4RgE_LRypkEf4",
+        "latitude": "-6.3092682",
+        "longitude": "106.8832192",
+        "name": "RM. Rima Jaya",
+        "description": "11, RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "30-35 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1650.2,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8832038,
+          -6.3096267,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJB9jJ1mjtaS4RAvGxQ-iy87I",
+        "latitude": "-6.3096267",
+        "longitude": "106.8832038",
+        "name": "Bakso mastom",
+        "description": "Jalan Terminal Kampung Rambutan RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "20-40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1611.9,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8831892,
+          -6.309588,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ_Yp4J2ntaS4ROO-tjnLO-aE",
+        "latitude": "-6.309588",
+        "longitude": "106.8831892",
+        "name": "Soto Lamongan 21",
+        "description": "MVRM+578, RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1.5-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1616.4,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.885492,
+          -6.3086882,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJx7A6EgDtaS4RDCFJ4sZvRr8",
+        "latitude": "-6.3086882",
+        "longitude": "106.885492",
+        "name": "Warung Mama Khania",
+        "description": "Gang Pijar Jalan Remaja RT.8/RW.1, Ceger",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "20 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1674.6,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8858378,
+          -6.3094091,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ6UH52FHtaS4Rr4msqf9LfyA",
+        "latitude": "-6.3094091",
+        "longitude": "106.8858378",
+        "name": "Mostato X Berasa Smoothies Ceger",
+        "description": "Jalan Remaja No.16 8, RT.2/RW.1, Ceger",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "55 - 70 juta",
+        "transaction_per_buyer": "30 - 40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1591.9,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8858804,
+          -6.3090549,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJB_oZRwDtaS4R03RXxQWmAP0",
+        "latitude": "-6.3090549",
+        "longitude": "106.8858804",
+        "name": "Dapur Anisa Catering Khas Banjar",
+        "description": "MVRP+99C, RT.8/RW.1, Ceger",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "1.5-3 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "60 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1631.0,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.883448,
+          -6.310936,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJm1duN2ntaS4R2TSb3XTvwnQ",
+        "latitude": "-6.310936",
+        "longitude": "106.883448",
+        "name": "Warung Nasi Putra Tasik Khas Sunda",
+        "description": "MVQM+J9G, Jalan Terminal Kampung Rambutan RT.11/RW.6, Rambutan",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1-2.5 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "25-30 juta",
+        "transaction_per_buyer": "15-30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1464.1,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8827343,
+          -6.2903307,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJv1ud2JvyaS4RH4XxoiYkess",
+        "latitude": "-6.2903307",
+        "longitude": "106.8827343",
+        "name": "Ayam Bakar Riri",
+        "description": "5, Jalan Raya Pondok Gede No.5, RT.5/RW.1, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1.5-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "40 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 372.9,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8804639,
+          -6.2889712,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ3R5hUJryaS4RIeBHhX6DFig",
+        "latitude": "-6.2889712",
+        "longitude": "106.8804639",
+        "name": "Warung sunda",
+        "description": "Jalan Haji Ahmad Tarmiji No.42 14, RT.15/RW.1, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "800-1.5 juta",
+        "tenant_area": "5 m x 5 m",
+        "target_market": "pekerja kantoran, warga",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "10-20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 434.0,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8830305,
+          -6.2869141,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ8Tn8_ZnyaS4RNC782V-2ZS0",
+        "latitude": "-6.2869141",
+        "longitude": "106.8830305",
+        "name": "ROTI BAKAR JAPAR 48",
+        "description": "Jl. Pinang Ranti II No.47, Makasar, Kota Jkt Tim Daerah Khusus Ibukota RW.1 RT.13, Jalan Pinang Ranti II No.47, RT.13/RW.1, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "100 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 717.8,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.886225,
+          -6.2962945,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJE2DmtZ_yaS4R_jrT4d29A8Y",
+        "latitude": "-6.2962945",
+        "longitude": "106.886225",
+        "name": "Sate Taichan Ummi",
+        "description": "Gang Damai 2 No.17, RT.17/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "500 ribu - 1 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "10 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 735.0,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8805683,
+          -6.2927129,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJEUgwSgDzaS4RENExC2qiIJI",
+        "latitude": "-6.2927129",
+        "longitude": "106.8805683",
+        "name": "BREWi JAYA COFFEE & EATERY JAGORAWI",
+        "description": "PV4J+W68, Jalan Taman Mini I RT.3/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "4-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "130 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 18.3,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8807719,
+          -6.2930019,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ_y1cGwDzaS4RwMrR2l4oXF4",
+        "latitude": "-6.2930019",
+        "longitude": "106.8807719",
+        "name": "Street Sushi Travoy Hub",
+        "description": "Jalan Taman Mini I RT.3/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "2-3 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "120-130 juta",
+        "transaction_per_buyer": "80 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "45 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 29.8,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8807031,
+          -6.2925125,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJWVSfcwDzaS4RxHgL3uJMoVQ",
+        "latitude": "-6.2925125",
+        "longitude": "106.8807031",
+        "name": "Kwetiau Aho 28 Travoy Hub / TCD Taman Mini",
+        "description": "PV4J+X7W, RT.3/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "30 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 44.3,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8808839,
+          -6.2930321,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJRTjkLgDzaS4RwBBxSjNryRo",
+        "latitude": "-6.2930321",
+        "longitude": "106.8808839",
+        "name": "Es Cendol Durian Bang Ipul",
+        "description": "PV4J+Q9J, Jalan Taman Mini I RT.3/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "31-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 42.4,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8810527,
+          -6.2919926,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ5cGUCpzyaS4RN9VIuW3QWgE",
+        "latitude": "-6.2919926",
+        "longitude": "106.8810527",
+        "name": "RM. Karimata Taman Mini",
+        "description": "Jalan Raya Taman Mini No.2, RT.4/RW.2, Pinang Ranti",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "100 - 120 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "55 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 113.5,
+        "nearest_station_verified": "tmii"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8830676,
+          -6.3187588,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJaW7AoRTtaS4RjuC5744sy64",
+        "latitude": "-6.3187588",
+        "longitude": "106.8830676",
+        "name": "Nasi Bakar Uni Dian",
+        "description": "Jalan Pengantin Ali No.20 8, RT.8/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1.5-2.5 juta",
+        "tenant_area": "3.5 m x 3.5 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "45 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "12 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 680.5,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8836619,
+          -6.3244633,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ69fhIwDtaS4RjVeqT0aJazk",
+        "latitude": "-6.3244633",
+        "longitude": "106.8836619",
+        "name": "JIF Pizza - Ciracas",
+        "description": "Jalan Pengantin Ali No.32 6, RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "3 tahun",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 10 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 - 30 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "24 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 346.3,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8838134,
+          -6.3249912,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJiXtjgA7taS4R7y2Kn1ozfi4",
+        "latitude": "-6.3249912",
+        "longitude": "106.8838134",
+        "name": "RUMAH MAKAN MAWAR",
+        "description": "Jalan Asem No.3a 4, RT.4/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "800 ribu - 1 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "18 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 349.8,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8834023,
+          -6.3246122,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJw_bUcortaS4RZwpSaFwDWpo",
+        "latitude": "-6.3246122",
+        "longitude": "106.8834023",
+        "name": "Bakso Rusuk Joss Ciracas Restaurant",
+        "description": "Jalan Pengantin Ali No.30, RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "45-50 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 378.3,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8834573,
+          -6.3252381,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXYlQfgftaS4Ridd0gFKAy90",
+        "latitude": "-6.3252381",
+        "longitude": "106.8834573",
+        "name": "Family Corner",
+        "description": "Jalan Pengantin Ali No.105, RT.4/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "6 tahun",
+        "transaction_per_day": "1-2.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "40 - 45 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 397.1,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8840818,
+          -6.3234506,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ34i9JA_taS4RcZ9I-jJa-pY",
+        "latitude": "-6.3234506",
+        "longitude": "106.8840818",
+        "name": "Pawonenur Aqiqah (Nasi Kebuli Pawonenur)",
+        "description": "Jalan Pengantin Ali No.3, RT.1/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "2-2.5 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "24 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 290.7,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8831137,
+          -6.3252147,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJGSDOvi7taS4RhZvNKnQCXL4",
+        "latitude": "-6.3252147",
+        "longitude": "106.8831137",
+        "name": "Pecel Ayam dan Lele Oasis Mansion",
+        "description": "Jalan Pengantin Ali No.42, RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "800 ribu - 1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "15 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 430.7,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8829131,
+          -6.3239478,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJDWdEpCvtaS4Ru7umocM1Qbg",
+        "latitude": "-6.3239478",
+        "longitude": "106.8829131",
+        "name": "KUNYAH NYAH",
+        "description": "Jalan Pengantin Ali Gang Mawar RT.13/RW06/RW.No.63, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "500 ribu - 1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "10-15 juta",
+        "transaction_per_buyer": "30 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 419.4,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8828281,
+          -6.3252338,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJLaA4xvjtaS4RQ8xcFEs3URQ",
+        "latitude": "-6.3252338",
+        "longitude": "106.8828281",
+        "name": "Rasa Tambah",
+        "description": "Jalan Pengantin Ali No.42, RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "2-3 tahun",
+        "transaction_per_day": "500-1.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "18-20 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "10 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 460.7,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.882999,
+          -6.3254757,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJ-ayOSADtaS4R2AND9Sgtpqg",
+        "latitude": "-6.3254757",
+        "longitude": "106.882999",
+        "name": "Es Dawet Durian 114 Ciracas",
+        "description": "Jalan Pengantin Ali 6 No.23, RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "1.5-2 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "35-40 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 454.2,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8848457,
+          -6.3256667,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJYWgB783taS4RuOyC3ov-8OA",
+        "latitude": "-6.3256667",
+        "longitude": "106.8848457",
+        "name": "Kampung Telaga",
+        "description": "LRT City, Jalan Pengantin Ali No.88 4, RT.4/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "6-8 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki, warga",
+        "revenue_per_month": "200 juta",
+        "transaction_per_buyer": "40 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "30 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 299.7,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8831188,
+          -6.3256992,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJlYdjNRftaS4ROcnX8Lzh0y8",
+        "latitude": "-6.3256992",
+        "longitude": "106.8831188",
+        "name": "WARTEG BAROKAH",
+        "description": "Jalan Pengantin Ali RT.6/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-1.5 juta",
+        "tenant_area": "4 m x 10 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "25 juta",
+        "transaction_per_buyer": "10-25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "20 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "30-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 453.9,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8831541,
+          -6.325744,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJHw0wXSTtaS4R9KchbVRt3j8",
+        "latitude": "-6.325744",
+        "longitude": "106.8831541",
+        "name": "Bakmi Unggul",
+        "description": "Jalan Pengantin Ali No.55, RT.8/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "",
+        "transaction_per_day": "500 ribu - 1 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "12 - 15 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 453.0,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8835584,
+          -6.3231133,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJmelyfA_taS4RQKvnC3n0HKM",
+        "latitude": "-6.3231133",
+        "longitude": "106.8835584",
+        "name": "Pangsit dan Mie Chili Oil Nyak Enni",
+        "description": "Jalan Penganten Ali 5 No.18, RT.11/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "8 bulan",
+        "transaction_per_day": "2-3 juta",
+        "tenant_area": "4 m x 4 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "50 juta",
+        "transaction_per_buyer": "35 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "25 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 353.3,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8837605,
+          -6.3229422,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXTaoPtftaS4R59s6LeiGaso",
+        "latitude": "-6.3229422",
+        "longitude": "106.8837605",
+        "name": "Mie Keriting Barokah \"PAKDHE\"",
+        "description": "11, Jalan Pengantin Ali No.79, RT.11/RW.6, Ciracas",
+        "tenant_type": "umkm-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "1-2 juta",
+        "tenant_area": "3 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "35 juta",
+        "transaction_per_buyer": "25 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "15 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 335.6,
+        "nearest_station_verified": "ciracas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7973923,
+          -6.2551633,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJuX_jpnXxaS4RFrQSCOerBjk",
+        "latitude": "-6.2551633",
+        "longitude": "106.7973923",
+        "name": "Mie Kondang Blok A",
+        "description": "depan Jakarta Photo, Jalan Panglima Polim No.2, RT.2/RW.1, Pulo",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "2-3.5 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "80 juta",
+        "transaction_per_buyer": "20 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1263.0,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8012185,
+          -6.2522504,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJXRdJbHHxaS4RGFU8ho4RaJw",
+        "latitude": "-6.2522504",
+        "longitude": "106.8012185",
+        "name": "Burgreens Dharmawangsa - Healthy Plant-Based Eatery",
+        "description": "5, Jalan Wijaya II No.37, RT.5/RW.7, Pulo",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "6-7 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "200 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 936.9,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7910877,
+          -6.2526429,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJyeSTNwrxaS4RsZLkII7897g",
+        "latitude": "-6.2526429",
+        "longitude": "106.7910877",
+        "name": "Pempek 161 radio dalam",
+        "description": "Jalan Radio Dalam Raya No.H5 C, RT.7/RW.4, Gandaria Utara",
+        "tenant_type": "umkm-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "5-7 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "120 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "40 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1337.2,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7903055,
+          -6.2551473,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJe-S5lgvxaS4RfOKdXeCfkBQ",
+        "latitude": "-6.2551473",
+        "longitude": "106.7903055",
+        "name": "Sushi Tengoku",
+        "description": "Jalan Radio Dalam Raya No.11 B 5, RT.5/RW.4, Gandaria Utara",
+        "tenant_type": "franchise-tetap",
+        "period": "2 minggu",
+        "transaction_per_day": "8 - 10 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "250 juta",
+        "transaction_per_buyer": "150 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "60 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 1602.9,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8000665,
+          -6.2523832,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJk_PiCXTxaS4R3ukWIZFOtv4",
+        "latitude": "-6.2523832",
+        "longitude": "106.8000665",
+        "name": "Chung Gi Wa",
+        "description": "Jalan Wijaya II No.119, RT.5/RW.1, Melawai",
+        "tenant_type": "franchise-tetap",
+        "period": "1 tahun",
+        "transaction_per_day": "6-8 juta",
+        "tenant_area": "4 m x 3 m",
+        "target_market": "Warga, pejalan kaki, pekerja kantoran",
+        "revenue_per_month": "180 juta",
+        "transaction_per_buyer": "75 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 934.3,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7976745,
+          -6.2509362,
+          0
+        ]
+      },
+      "properties": {
+        "id": "ChIJLZ65UHLxaS4RyOzbocZgIZA",
+        "latitude": "-6.2509362",
+        "longitude": "106.7976745",
+        "name": "Bakwan Pabean",
+        "description": "Jalan Panglima Polim No.75B 1, RT.1/RW.7, Melawai",
+        "tenant_type": "umkm-tetap",
+        "period": "2 tahun",
+        "transaction_per_day": "3-5 juta",
+        "tenant_area": "3.5 m x 3 m",
+        "target_market": "pekerja kantoran, pejalan kaki",
+        "revenue_per_month": "120 juta",
+        "transaction_per_buyer": "60 ribu",
+        "rent_trend": "0%",
+        "rent_price_annual (per tahun)": "50 juta",
+        "rent_expiry_date": "",
+        "tanggal_survey": "23-Agu-2026",
+        "kondisi_bangunan": "",
+        "moda_terhubung": "",
+        "jarak_ke_stasiun_meter": 797.2,
+        "nearest_station_verified": "blok_m_selatan"
+      }
+    }
+  ]
+}

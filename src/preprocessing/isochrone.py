@@ -2,11 +2,16 @@
 'perhitungan radius keterjangkauan jalan kaki (Isochrone Network Analysis)
 sejauh 0-800 meter atau setara 10 menit berjalan kaki dari simpul transit.'
 
-Tested here against a synthetic grid graph (networkx) rather than a real
-OSM extract -- proves the graph-distance + buffer logic works; swap in
-osm.fetch_walk_network()'s real graph once network access allows it."""
+compute_isochrone() is tested against a synthetic grid graph (networkx);
+tag_grid_within_isochrone() is the piece run_pipeline.py actually calls,
+against osm.fetch_walk_network()'s real graph, now that live network
+access to the Overpass API is available from this environment (verified
+directly before wiring this in -- see run_pipeline.py's ingestion stage)."""
 
+import geopandas as gpd
 import networkx as nx
+import osmnx as ox
+import pandas as pd
 from shapely.geometry import Point, MultiPoint
 from shapely.ops import unary_union
 
@@ -27,3 +32,30 @@ def compute_isochrone(graph: nx.Graph, station_node, max_distance_m: float = 800
             max_distance_m / 111_000  # rough degrees-to-meters fallback, only hit in degenerate graphs
         )
     return MultiPoint(reachable_nodes).convex_hull
+
+
+def tag_grid_within_isochrone(
+    grid: gpd.GeoDataFrame,
+    walk_graph: nx.Graph,
+    stations: pd.DataFrame,
+    max_distance_m: float = 800.0,
+) -> gpd.GeoDataFrame:
+    """Adds `within_walk_isochrone` (1/0) -- whether each cell's centroid
+    falls inside the 800m/~10-min walk-network isochrone of ANY station,
+    per the PRD's isochrone spec. This is a real network-distance
+    catchment, not the straight-line `dist_to_station` districts.py
+    already computes -- a cell can be close as the crow flies but outside
+    the walk isochrone if the street network doesn't connect directly.
+
+    `walk_graph` is unprojected (lat/lon degrees, osmnx's default), same
+    as the isochrone polygons compute_isochrone() returns -- both get
+    reprojected to `grid`'s CRS here so the containment check is valid."""
+    station_nodes = ox.distance.nearest_nodes(walk_graph, stations["lon"].values, stations["lat"].values)
+    isochrones = [compute_isochrone(walk_graph, node, max_distance_m) for node in station_nodes]
+    isochrone_union = (
+        gpd.GeoSeries([unary_union(isochrones)], crs="EPSG:4326").to_crs(grid.crs).iloc[0]
+    )
+
+    grid = grid.copy()
+    grid["within_walk_isochrone"] = grid.geometry.centroid.within(isochrone_union).astype(int)
+    return grid

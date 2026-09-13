@@ -24,7 +24,9 @@ def engine():
 
 
 EXPECTED_TABLES = {
-    "spatial_grids": {"grid_id", "geom", "poi_count", "dist_to_station_m", "ndbi_mean", "district_name"},
+    "spatial_grids": {"grid_id", "geom", "poi_count", "dist_to_station_m", "ndbi_mean", "district_name",
+                       "within_walk_isochrone", "builtup_pct", "kecamatan", "population",
+                       "population_density_per_km2"},
     "gentrification_risk_scores": {"grid_id", "vulnerability_index", "ews_code", "matching_score", "computed_at"},
     "policy_recommendations": {"grid_id", "narrative", "recommendation_type", "ai_generated", "requires_human_review", "generated_at"},
     "reallocation_candidates": {"origin_grid_id", "rank", "recommended_grid_id", "recommended_district",
@@ -47,3 +49,41 @@ def test_spatial_grids_geojson_view_exists(engine):
             "SELECT 1 FROM information_schema.views WHERE table_name = 'spatial_grids_geojson'"
         )).fetchone()
     assert result is not None
+
+
+# Indonesia's approximate lon/lat envelope -- generous on purpose, just
+# tight enough to catch an accidental coordinate-order swap (this study
+# area's cells should read as ~106 E, ~-6 N; a swap would put them at
+# ~106 N, ~-6 E, well outside this box).
+INDONESIA_LON_RANGE = (94.0, 142.0)
+INDONESIA_LAT_RANGE = (-12.0, 7.0)
+
+
+def test_spatial_grids_geojson_features_are_well_formed(engine):
+    """Only test_spatial_grids_geojson_view_exists above checks the view
+    exists -- this checks what it actually returns is valid, correctly-
+    ordered GeoJSON, since ST_AsGeoJSON/ST_Transform mistakes (wrong SRID,
+    swapped axis order) would otherwise only surface once a map consumer
+    renders garbage."""
+    with engine.connect() as conn:
+        rows = conn.execute(text("SELECT feature FROM spatial_grids_geojson LIMIT 25")).fetchall()
+
+    assert rows, "spatial_grids_geojson returned no rows -- run the pipeline at least once first"
+
+    for (feature,) in rows:
+        assert feature["type"] == "Feature"
+
+        geometry = feature["geometry"]
+        assert geometry["type"] == "Polygon"
+        rings = geometry["coordinates"]
+        assert rings and len(rings[0]) >= 4  # closed ring: >=3 distinct points + repeated first
+        for lon, lat in rings[0]:
+            assert INDONESIA_LON_RANGE[0] <= lon <= INDONESIA_LON_RANGE[1], (
+                f"longitude {lon} outside Indonesia's range -- possible lat/lon axis swap"
+            )
+            assert INDONESIA_LAT_RANGE[0] <= lat <= INDONESIA_LAT_RANGE[1], (
+                f"latitude {lat} outside Indonesia's range -- possible lat/lon axis swap"
+            )
+
+        properties = feature["properties"]
+        assert {"grid_id", "district_name", "poi_count"}.issubset(properties.keys())

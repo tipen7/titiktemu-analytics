@@ -49,3 +49,33 @@ def test_normalize_tenant_type_unknown_returns_none_not_guess():
 def test_parse_period_months_handles_decimals():
     assert parse_period_months("1.5 tahun") == 18.0
     assert parse_period_months("7.5 bulan") == 7.5
+
+
+def test_assign_grid_coords_deduplicates_multi_grid_matches():
+    # Regression guard for a real bug found this session: two adjacent
+    # regions' bboxes overlapped by ~0.8km x 2.2km, so a survey point in
+    # that overlap fell "within" a cell from BOTH grids, and gpd.sjoin's
+    # how="left" produced two rows for that one real point -- silently
+    # inflating 68 real v3 survey rows to 95 in GWR's training data.
+    import geopandas as gpd
+    from shapely.geometry import box
+    from src.ingestion.umkm_survey import assign_grid_coords
+
+    # Two overlapping 1-degree cells in the same CRS -- a point in the
+    # overlap is "within" both.
+    grid = gpd.GeoDataFrame(
+        {"grid_id": ["a", "b"]},
+        geometry=[box(0, 0, 2, 2), box(1, 1, 3, 3)],
+        crs="EPSG:32748",
+    )
+    survey = pd.DataFrame({"latitude": [-6.0], "longitude": [106.0]})
+    # Point directly in the projected-CRS overlap region (1,1)-(2,2).
+    survey_projected = gpd.GeoDataFrame(
+        survey, geometry=[box(1.4, 1.4, 1.6, 1.6).centroid], crs="EPSG:32748",
+    ).to_crs("EPSG:4326")
+    survey["latitude"] = survey_projected.geometry.y
+    survey["longitude"] = survey_projected.geometry.x
+
+    result = assign_grid_coords(survey, grid)
+
+    assert len(result) == 1  # not 2, despite matching both "a" and "b"

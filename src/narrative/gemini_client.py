@@ -24,6 +24,16 @@ Respond ONLY as JSON: {{"narrative": "...", "recommendation_type": "..."}}
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 
+class GeminiQuotaExceededError(RuntimeError):
+    """Raised specifically for HTTP 429 -- distinct from a one-off malformed
+    response (RuntimeError) so the caller (run_pipeline.py) can tell "this
+    request happened to fail" apart from "every remaining request this run
+    will fail too" and stop retrying per-cell instead of burning the full
+    flagged-cell list one slow HTTP round-trip at a time (verified: a run
+    with 1,404 flagged cells took ~25 minutes retrying a quota that was
+    already exhausted on the first call)."""
+
+
 def generate_narrative(grid_id: str, ews_code: int, vulnerability_index: float, matching_score: float) -> dict:
     payload = {
         "grid_id": grid_id, "ews_code": ews_code,
@@ -42,11 +52,13 @@ def generate_narrative(grid_id: str, ews_code: int, vulnerability_index: float, 
     try:
         resp = httpx.post(
             url, params={"key": settings.gemini_api_key},
-            json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=20.0,
+            json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=90.0,
         )
         resp.raise_for_status()
         data = resp.json()
     except httpx.HTTPStatusError as e:
+        if e.response.status_code == 429:
+            raise GeminiQuotaExceededError(f"Gemini API returned 429: {e.response.text[:200]}")
         raise RuntimeError(f"Gemini API returned {e.response.status_code}: {e.response.text[:200]}")
     except httpx.RequestError as e:
         raise RuntimeError(f"Could not reach Gemini API: {e}")

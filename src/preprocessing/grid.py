@@ -15,9 +15,16 @@ def build_study_grid(
     bbox_wgs84: tuple[float, float, float, float] | None = None,
     cell_size_m: float | None = None,
     crs: str | None = None,
+    id_prefix: str = "grid",
 ) -> gpd.GeoDataFrame:
     """bbox_wgs84 = (west, south, east, north) in EPSG:4326.
-    Returns a GeoDataFrame with columns [grid_id, geometry], geometry in `crs`."""
+    Returns a GeoDataFrame with columns [grid_id, geometry], geometry in `crs`.
+
+    `id_prefix` namespaces grid_id (default "grid", matching the main
+    Dukuh Atas/Blok M study area's existing IDs like "grid_000_000") --
+    pass a different prefix (e.g. "cibubur") when building a grid for a
+    DIFFERENT bbox that will be persisted to the same `spatial_grids`
+    table, so its cell IDs can't collide with an unrelated area's."""
     west, south, east, north = bbox_wgs84 or (
         settings.study_area_bbox_west,
         settings.study_area_bbox_south,
@@ -40,7 +47,7 @@ def build_study_grid(
     for i, x in enumerate(xs):
         for j, y in enumerate(ys):
             cells.append({
-                "grid_id": f"grid_{i:03d}_{j:03d}",
+                "grid_id": f"{id_prefix}_{i:03d}_{j:03d}",
                 "geometry": box(x, y, x + cell_size, y + cell_size),
             })
 

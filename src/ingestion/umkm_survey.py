@@ -388,6 +388,13 @@ def assign_grid_coords(df: pd.DataFrame, grid: gpd.GeoDataFrame, stations: pd.Da
         points["dist_to_station"] = dist_matrix.min(axis=1)
 
     joined = gpd.sjoin(points, grid[["grid_id", "geometry"]], how="left", predicate="within")
+    # A point exactly on a shared cell edge/vertex, or inside TWO regions
+    # whose bboxes happen to overlap (verified real case: blokmselatan's
+    # bbox overlapped the main study area's by ~0.8km x 2.2km before that
+    # was fixed), can match more than one grid_id -- keep one match per
+    # survey point rather than silently duplicating that row's weight in
+    # GWR training.
+    joined = joined[~joined.index.duplicated(keep="first")]
     dropped = joined["grid_id"].isna().sum()
     if dropped:
         print(f"WARNING: {dropped} survey point(s) fall outside the study grid -- excluded from GWR training.")
