@@ -1,77 +1,38 @@
-# titiktemu-analytics — Remaining TODOs
+TitikTemu TODO:
+1. Map does not show on phone/tablet.
+2. Remove sidebar collapse icon (fixable by me)
+3. Map moves along the user scrolls down, or adjusted to the current user’s viewport height
+4. Format insight to be more professional. Also reformat all grid_* to be the region name so that the user can easily recognize it
+5. Sidebar collapsed the map is gray/blank on the right side
+6. User’s location does not show in map
+7. Update Self Tracker fields to accept more input relevant to the fields that titiktemu-analytics use to process pipeline
+8. Button on-off toggle bug in profil usaha umkm user
+9. Logo blur (fixable by me)
+10. Add view reallocation for the user if the current user location is bahaya
+11. User’s location does not show in map
+12. Make the current user’s location as red and give pulse animation, and add also for the reallocated place user’s get
+13. Display the grid more user-friendly. Dont display the training grid, just draw a circle zone with red, green, or yellow colour depending on the grid ews score
+14. User who wants to reallocate can fill a form and select reallocation place that get sends to the operator laporan alokasi
+15. Smart tenant matching engine for operator still showing waspada, even though it should have been bahaya only
+Each UMKM in Operator discovery map when clicked, yes it gets redirected to the place in map, but still does not show a dot/point indicating that they are there
+16. When user is logged in to the beranda page, immediately asked for prompt to access their location, and then processes it to show display it in the map, and the given coordinates will apply also for another page that displaying a map
 
-Reflects the real state as of the v3+v5 pipeline run (CV-bandwidth GWR, 64.7% real
-accuracy). Organized by category. Items from earlier sessions that are now genuinely
-done have been removed rather than kept as stale checkmarks — see git history for that
-trail if needed.
-
----
-
-## 1. Model accuracy — currently 64.7% (n=119), target 80-90% not yet reached
-
-Real, LOOCV-against-real-survey accuracy (see `src/modeling/xgboost_ews.validate_ews_against_survey`),
-trained on `umkm_survey_v3.geojson` + `umkm_survey_v5.geojson` only (`v4` retired — see
-`data/README.md`). CV-selected GWR bandwidth (vs. the old AICc default) got this from
-57.1% to 64.7% — a genuine methodology improvement, not a data change. A flexible
-non-spatial classifier (RandomForest, 5-fold CV) on the same 4 features caps at the same
-~64%, which means the ceiling right now is the FEATURE SET, not the modeling approach.
-Confirmed NOT to help (see `scripts/experiment_chain_density*.py`, kept as a record of a
-negative result): an OSM chain/franchise-density feature — tested both as a raw count
-and as a ratio, both scored below the 4-feature baseline.
-
-What's left, in order of expected value:
-
-- [ ] **Main study area demography** — `data/demography/demography.csv` has zero
-      coverage for Dukuh Atas/Blok M's own kecamatan (Setiabudi, Tanah Abang, Menteng,
-      Kebayoran Baru, Mampang Prapatan, Pal Merah), so `population_density_per_km2` is
-      null for all 390 main-grid cells. User has this data and will provide it.
-- [ ] **Complete the 98 partial survey rows** — 217 real rows exist (68 v3 + 149 v5),
-      but only 119 have BOTH rent and revenue on the same row (GWR's y-variable needs
-      both). Cheapest lever: go back to already-surveyed businesses missing one field,
-      not new site visits. Worst gaps: main grid (33/68 missing), Cibubur (19/48),
-      Sentul (11/27).
-- [ ] **More real survey coverage in thin areas** — Depok Pusat (2 usable rows), Bogor
-      Utara (4), TMII (4) are too sparse for GWR to say anything reliable locally.
-- [ ] **A genuinely new predictive feature** — something that actually tracks
-      tenant-specific economics (independent stall vs. established chain), not just
-      location-structural signal. Chain POI density didn't pan out; the real
-      differentiator observed in v3 (small stalls at vulnerability ~0.5-1.0 vs. chains
-      at ~0.005-0.03 on the same street) isn't captured by any current grid-cell-level
-      feature.
-
-## 2. Narrative generation — Gemini quota is the binding constraint
-
-Last full run: 3/2032 flagged cells got a real narrative before hitting the API quota
-(`GeminiQuotaExceededError`, handled — stops immediately instead of retrying each of the
-remaining ~2000 cells individually). `policy_recommendations` is correspondingly sparse.
-Not a code bug — either raise the quota/billing tier, or add a resumable
-already-narrated-cells skip so re-runs top up instead of restarting from zero.
-
-## 3. Data provenance still worth tightening
-
-- [ ] **`umkm_survey_v4.geojson`'s relationship to v5 isn't formally reconciled** — v5 is
-      a re-survey of the same real areas with 131 fewer rows (since-closed/
-      duplicate/unreliable businesses dropped). No row-level mapping exists between which
-      v4 business became which v5 business (or was dropped). Not blocking anything
-      today since v4 is fully excluded from training, but would matter if v4 is ever
-      revisited.
-- [ ] **Mock-data flags (`is_mock_rent`, `is_mock_full_row`) vs. `data_completeness_score`/
-      `n_fields_imputed`** — two overlapping "how real is this row" signals still exist
-      for the original v3 pipeline path (`umkm_survey.py`). Should be reconciled into
-      one consistent confidence figure.
-
-## 4. Infra / Ops
-
-- [ ] **No RQ worker actually implemented** — `worker.py` runs the process, but
-      `src/workers/scoring.py` is an intentional `NotImplementedError` stub (the
-      on-demand single-point scoring job contract hasn't been decided). Don't
-      "complete" it without checking first, per that file's own docstring.
-- [ ] **MAPID API (Properti Go/Struk Go/Menu Go) still stubbed** — real access
-      confirmed reachable in an earlier session, but the actual dataset returned covers
-      Kota Tangerang/Bogor/Jakarta Timur/Depok, none of which overlap the main study
-      area's bbox. Revisit if scope expands there.
-- [x] GitHub Actions scheduled run (`.github/workflows/run_pipeline.yml`) exists.
-- [x] Real OSM POI + walk-isochrone ingestion is live (confirmed reachable from this
-      environment as of the v3+v5 run — the "not reachable from this sandbox" caveat in
-      `src/ingestion/osm.py`'s docstring is stale, left in place as historical context
-      for why the code was originally written untested against a live endpoint).
+TODO-v2:
+1. The Reallocation Report for operator Laporan Alokasi page is failed or error 401 unauthorized (even though i already authorized) and the response is Invalid or expired token
+2. The Beranda Map is still not following the user's viewport height when scroll, the map stay still in the top (bad UX), applies to all the page using map
+3. There are still many grid_* text, make sure dont expose this to the UMKM user and operator, use a clear and recognizable label
+4. Fix ESG Dashboard filter in Operator, the filter does not work as it should, when the operator clicks and filter a spesific region, the dashboard charts will be automatically display that region only. Also make the charts/graph to have more interactiveness
+5. In the Beranda page, make sure to focus/zoom more on the current user's location so that the user did not have to search for their dots in the map.
+6. Fix all the necessary UI components, e.g. double icon for Alert, etc. Make sure all good.
+7. When the user succesfully update/fill the Profil Usaha form, it automatically changes the current user coordinates in the map. And after updating the data/submitting the form, the UMKM Self Tracker page becomes a informative table/dashboard with a necessary metrics for the current user's location and region.
+8. If the user is outside the study grid, display a good message e.g. return to beranda or else,indicating they does not know.
+9. If the UMKM User current location is in the red grid, display the pulse dot points in the map as red, applies to the other yellow (waspada) and green (aman)
+10. Differentiate Panel Informasi information between UMKM user and Operator. For the UMKM user, just give statistics around the user's region, not the whole study grid (this is for operator). And also make sure Rekomendasi Alokasi is different for each UMKM User based on their location (prioritize nearest allocation if exist).
+11. For Operator Discovery Map, add a pulse for each selected/observed UMKM
+12. Adjust positioing of legend and AI Chatbot in the Beranda page for both UMKM user and Operator. For Operator Discovery Map page, place the AI Chatbot stick to the map. And the legend close bottom near the map so user dont have to
+13. For Operator Smart Tenant Matching, adjust all the layout to be more user friendly. And remove Tolak/Terima button because now it belongs to Laporan Alokasi job.
+14. Remove n=119 for all page, just show confidence/accuracy score
+15. Format all UMKM name to be capitalized for each beginning letter e.g. aa fun chicken -> AA Fun Chicken, auntie annes -> Auntie Annes, etc.
+16. Adjust all mobile/tablet layout for all page both operator and umkm user, make sure all responsive, e.g. in mobile viewport for operator tenant matching, the legend and the AI Chatbot is panel is too big and covers the map.
+17. If the UMKM user is on the red zone, for every Rekomendasi Alokasi in the Beranda page, add View Reallocation Button that redirects to the Lihat Realokasi state (immediately shows the selected reallocation candidate in map) along with the necessary detail
+18. Dont forget to add a pulse animation for every reallocated candidates, current user's location, etc.

@@ -281,16 +281,21 @@ def write_reallocation_candidates(engine, candidates: pd.DataFrame) -> None:
     """Writes the batch-precomputed reallocation table -- see
     src/modeling/zones.precompute_reallocations() for the architecture
     decision (batch precompute + SQL lookup, not a live Python service).
-    Clears and rewrites per origin_grid_id each run -- candidates should
-    fully reflect the latest scoring, not accumulate stale ranks."""
-    if candidates.empty:
-        return
+
+    Full replace every run, not a per-origin_grid_id delete: a cell that
+    was "bahaya" in a PAST run but isn't anymore (EWS cutoffs shift as
+    survey data changes) previously kept its stale candidates forever,
+    since a delete scoped to only the NEW batch's origin_grid_ids never
+    touches origin_grid_ids absent from the new batch. Verified real:
+    997 distinct origins had rows in this table but only 248 were
+    actually still "bahaya" -- 749 stale origins, 75% of the table.
+    Deletes unconditionally (even when `candidates` is empty -- "zero
+    danger cells this run" is real new information, not a reason to
+    leave a fully stale table untouched)."""
     with engine.begin() as conn:
-        origin_ids = tuple(candidates["origin_grid_id"].unique())
-        conn.execute(
-            text("DELETE FROM reallocation_candidates WHERE origin_grid_id = ANY(:ids)"),
-            {"ids": list(origin_ids)},
-        )
+        conn.execute(text("DELETE FROM reallocation_candidates"))
+        if candidates.empty:
+            return
         for _, row in candidates.iterrows():
             conn.execute(text("""
                 INSERT INTO reallocation_candidates

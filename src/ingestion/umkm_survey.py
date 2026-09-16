@@ -26,6 +26,16 @@ TENANT_TYPE_MAP = {
     "umkm-seasonal": "umkm_seasonal",
     "franchise-tetap": "franchise_tetap",
     "franchise-seasonal": "franchise_seasonal",
+    # v6 real-world spelling/wording variants of the same categories --
+    # "musiman" is Indonesian for "seasonal", verified real values, not
+    # guessed. "7 tahun (di lokasi 2 tahun)" (a genuine data-entry error --
+    # a period value entered in the tenant_type column) is deliberately
+    # NOT mapped here; it stays null/unrecognized rather than guessed.
+    "umkm tetap": "umkm_tetap",
+    "umkm musiman": "umkm_seasonal",
+    "umkm seasonal": "umkm_seasonal",
+    "musiman (event)": "umkm_seasonal",
+    "musiman (event kyoto seoul)": "umkm_seasonal",
 }
 
 UNIT_MULTIPLIERS = {"ribu": 1_000, "juta": 1_000_000, "jt": 1_000_000, "milliar": 1_000_000_000, "m": 1_000_000}

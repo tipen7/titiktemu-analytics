@@ -32,9 +32,12 @@ def test_dashboard_metrics_includes_ews_validation_when_given(scored_grid):
     validation = {
         "n": 35, "matches": 24, "accuracy_pct": 68.6,
         "ci_95_low_pct": 51.9, "ci_95_high_pct": 81.9, "confidence_level": "moderate",
+        "exact_match_accuracy_pct": 51.4, "opposite_extreme_error_pct": 8.6,
     }
     metrics = compute_dashboard_metrics(scored_grid, ews_validation=validation)
     assert metrics["ews_validation_accuracy_pct"] == 68.6
+    assert metrics["ews_validation_exact_match_accuracy_pct"] == 51.4
+    assert metrics["ews_validation_opposite_extreme_error_pct"] == 8.6
     assert metrics["ews_validation_n"] == 35
     assert metrics["confidence_level"] == "moderate"
 

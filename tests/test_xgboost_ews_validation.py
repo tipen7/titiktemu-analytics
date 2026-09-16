@@ -49,6 +49,35 @@ def test_validate_ews_against_survey_uses_real_data_scale_not_grid_scale():
     assert result["accuracy_pct"] < 100.0
 
 
+def test_validate_ews_against_survey_adjacent_tier_tolerant_vs_exact_match():
+    # Ordinal scoring: aman(0)/waspada(1)/bahaya(2) is an ordered scale, so
+    # a one-tier miss (waspada predicted bahaya, or vice versa) should
+    # count as correct in accuracy_pct, while a two-tier miss
+    # (aman<->bahaya) should not. exact_match_accuracy_pct keeps the
+    # stricter, untolerant figure for comparison.
+    #
+    # 6 points, terciles split them 2/2/2 by construction (0,1 -> aman;
+    # 2,3 -> waspada; 4,5 -> bahaya):
+    true_vuln = np.array([0.0, 0.1, 0.4, 0.5, 0.9, 1.0])
+    # predictions: index 0 exact match (aman); index 1 one-tier miss
+    # (aman predicted as waspada, via a value that lands in the waspada
+    # bucket); index 2,3 exact match (waspada); index 4 exact match
+    # (bahaya); index 5 two-tier miss (bahaya predicted as aman).
+    pred_vuln = np.array([0.05, 0.45, 0.45, 0.45, 0.95, 0.05])
+
+    result = validate_ews_against_survey(true_vuln, pred_vuln)
+
+    # Exact matches: indices 0, 2, 3, 4 = 4/6. Index 1 (one-tier) and index
+    # 5 (two-tier) both miss exact match.
+    assert result["exact_match_accuracy_pct"] == pytest.approx(4 / 6 * 100, abs=0.1)
+    # Adjacent-tolerant: index 1's one-tier miss now counts as correct,
+    # index 5's two-tier (opposite-extreme) miss still doesn't -> 5/6.
+    assert result["accuracy_pct"] == pytest.approx(5 / 6 * 100, abs=0.1)
+    assert result["accuracy_pct"] > result["exact_match_accuracy_pct"]
+    # Exactly one opposite-extreme (aman<->bahaya) error out of 6.
+    assert result["opposite_extreme_error_pct"] == pytest.approx(1 / 6 * 100, abs=0.1)
+
+
 def test_validate_ews_against_survey_drops_nan_pairs():
     true_vuln = np.array([0.1, np.nan, 0.9])
     pred_vuln = np.array([0.1, 0.5, np.nan])

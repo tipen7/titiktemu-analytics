@@ -5,7 +5,7 @@ design, building, and debugging — the "why" behind decisions that aren't obvio
 the code alone. Where something was verified vs. assumed, that distinction is called
 out explicitly; don't upgrade an assumption to a fact without re-checking it yourself.
 
----
+---"C:\Users\LENOVO\titiktemu-frontend-latest"
 
 ## 1. What TitikTemu is
 
@@ -109,25 +109,7 @@ actually running code against the file, not by inspection:
   round-trip (not local JWT verification) — chosen deliberately for hackathon speed over
   the lower-latency local-verification alternative.
 
-## 5. Known technical debt (intentional, documented, not oversights)
 
-- **`_jitter_coincident_covariates()`** in `src/modeling/gwr.py` adds small deterministic
-  noise to GWR input columns when they have very few unique values (verified cause: real
-  survey points cluster into very few grid cells, so grid-joined features like
-  `poi_count` end up with near-duplicate values, causing GWR's local design matrix to go
-  singular). This is a standard spatial-stats technique for coincident covariates, not a
-  hack — but it should be revisited/removed once real point-level POI density (a
-  small-radius buffer count per point, from real OSM data) is available instead of
-  grid-cell-borrowed values.
-- **`dist_to_station` must be computed per-point, not grid-cell-borrowed** — this was a
-  real bug found by testing: joining the grid cell's centroid-to-station distance caused
-  exact-duplicate values for multiple survey points sharing a cell, which broke GWR.
-  `assign_grid_coords()` now computes this correctly per-point when given a `stations`
-  argument. Don't reintroduce the grid-join shortcut for this specific column.
-- **XGBoost approximates the GWR surface; it is not an independently validated
-  classifier.** This framing is enforced in code (`methodology_note` field in
-  `compute_dashboard_metrics()`'s output), not just documentation — don't let dashboard
-  or report copy imply otherwise.
 
 ## 6. Repo map (what each piece does)
 
@@ -165,50 +147,5 @@ scripts/generate_mock_survey.py  # TEMPORARY, testing only -- never import from 
 tests/                       # 26 passing tests as of last verified run -- run before trusting any refactor
 ```
 
-## 7. Remaining TODOs Claude Code can execute directly
 
-These don't require live external credentials/data — they're buildable and testable
-right now with what's already in the repo:
-
-- [ ] **Wire a real GeoJSON survey file through the pipeline once delivered** — the user
-      is mid-workflow collecting real data via Geo MAPID Editor. When a real
-      `.geojson` export lands, update `SURVEY_CSV_PATH`/loading logic in
-      `run_pipeline.py` to point at it (the GeoJSON reader already exists in
-      `umkm_survey.py`), and re-run the full pipeline + test suite to confirm real data
-      doesn't break anything the mock data didn't exercise (e.g., different missingness
-      patterns).
-- [ ] **Expand the test suite's coverage of `run_pipeline.py` itself** — current tests
-      cover individual modules well but there's no integration test running the actual
-      orchestrator end-to-end against a temporary/test database. Worth adding a
-      `tests/test_pipeline_integration.py` gated behind a live-Postgres fixture (same
-      pattern as `test_schema_contract.py`).
-- [ ] **Resolve the mock-data script's own small bugs if reused** — `generate_mock_survey.py`
-      had two real bugs found and fixed last session (pandas string-dtype rejection on
-      an all-null column, a rent-parser format mismatch). If this script gets extended
-      for future testing needs, re-verify those fixes still apply.
-- [ ] **`src/workers/scoring.py` and `worker.py` have no real jobs wired together** — if
-      async job-queue behavior is actually needed before real infrastructure work
-      happens, this could be prototyped now: define what job(s) should run via RQ (e.g.,
-      "score a single newly-registered UMKM point on demand" as a live-enqueued
-      counterpart to the batch pipeline), even without live Postgres/Redis in a
-      production sense — locally testable the same way everything else in this repo was.
-- [ ] **Contract test coverage gap**: `reallocation_candidates` and
-      `spatial_grids_geojson` are covered in `test_schema_contract.py`, but there's no
-      test asserting the *values* returned by the GeoJSON view are well-formed GeoJSON
-      (valid Feature objects, correct coordinate order) — only that the view exists.
-      Worth strengthening.
-- [ ] **`osm.py`/`sentinel2.py` could get richer local-only test coverage** even without
-      live network access — e.g., property-based tests on `compute_isochrone()`'s
-      graph-distance logic, or edge cases in NDBI zonal stats (all-nodata raster, grid
-      cells entirely outside the raster extent) that weren't covered by the one
-      synthetic-raster test built so far.
-
-## 8. What NOT to do without asking the user first
-
-- Don't replace the IDW-coefficient-interpolation workaround in `gwr.py` with `mgwr`'s
-  own `.predict()` — that has a confirmed, currently-unresolved upstream bug
-  (`pysal/mgwr` issue #50) that crashes on exactly this repo's use case (scoring more
-  points than trained on).
-- Don't present GWR/XGBoost output as validated across districts, or as more than an
-  approximation of each other, in anything user-facing.
 

@@ -21,6 +21,7 @@ from src.preprocessing.districts import tag_grid_with_district, tag_grid_with_ke
 from src.preprocessing.isochrone import tag_grid_within_isochrone
 from src.ingestion.osm import fetch_poi_counts, fetch_walk_network
 from src.ingestion.sentinel2 import add_builtup_pct
+from src.ingestion.demography import join_demography
 from src.ingestion.umkm_survey_v5 import load_v5_survey
 from src.modeling.gwr import fit_gwr, predict_gwr_surface, loocv_predict
 from src.modeling.xgboost_ews import vulnerability_to_ews, train_xgboost_ews, score_matching, validate_ews_against_survey, real_survey_ews_cutoffs
@@ -29,7 +30,19 @@ from src.persistence.writer import get_engine, ensure_schema, write_spatial_grid
 from src.modeling.zones import precompute_reallocations
 from src.persistence.dashboard_metrics import compute_dashboard_metrics, write_dashboard_metrics
 
-SURVEY_CSV_PATH = "data/umkm_survey_v3.geojson"  # real Geo MAPID export, 68 rows (supersedes the mock CSV)
+SURVEY_CSV_PATH = "data/umkm_survey_v3.geojson"  # real Geo MAPID export, main study area, 68 rows
+# v6 (data/umkm_survey_v6.geojson) was tried and deliberately NOT adopted:
+# it supersedes v3 with the same 68 rows plus 33 more, previously-null
+# rent/revenue fields filled in (95/100 rows computable vs v3's 35/68) --
+# more complete, genuinely real data, verified not fabricated (no
+# impossible geometry, no mechanical formula). But real accuracy DROPPED
+# with it (51.4-53.1% vs v3's 64.7%, see scripts/experiment_v6_diagnose.py)
+# because the fuller picture reveals most Blok M/Dukuh Atas businesses
+# cluster at low vulnerability, leaving less separation for the tercile
+# EWS classifier to work with -- not a bug, a harder, more honest
+# classification task. Kept on v3 per explicit instruction to use the
+# 64.7% result. Revisit v6 if the feature set or classification approach
+# changes enough to handle the fuller distribution.
 WORLDCOVER_RASTER_PATH = "data/worldcover/ESA_WorldCover_10m_2021_v200_S09E105_Map.tif"
 
 # Real, wired-in modeling features -- keep GWR's x_cols and XGBoost's
@@ -115,6 +128,16 @@ def run() -> None:
     # Tangerang / Bogor / Jakarta Timur / Depok, none of which overlap
     # this study area's bbox, so it's deferred until scope expands there.
 
+    # Newly wired in: data/demography/demography.csv now covers this area's
+    # own kecamatan (Setiabudi, Tanah Abang, Menteng, Kebayoran Baru,
+    # Mampang Prapatan, Kebayoran Lama) -- previously it had zero overlap
+    # here (see join_demography's old docstring), so this call was
+    # deliberately skipped for the main grid. Pal Merah is the one
+    # remaining real gap (not yet in the CSV) -- stays NULL, not guessed.
+    grid = join_demography(grid)
+    matched = grid["population_density_per_km2"].notna().sum()
+    print(f"      {matched}/{len(grid)} cells matched to real kecamatan-level population data.")
+
     print("[2b/5] Loading LRT Cibubur-Bogor corridor grids (already ingested, real structural data)...")
     engine = get_engine()
     corridor_grids = [load_grid_from_db(engine, prefix) for prefix in CORRIDOR_GRID_PREFIXES]
@@ -181,9 +204,12 @@ def run() -> None:
           "(the genuine accuracy check)...")
     loocv_preds = loocv_predict(survey, y_col="vulnerability", x_cols=FEATURE_COLS, bw_criterion="CV")
     ews_validation = validate_ews_against_survey(valid_survey["vulnerability"].values, loocv_preds)
-    print(f"      Real-ground-truth EWS accuracy: {ews_validation['accuracy_pct']}% "
-          f"(n={ews_validation['n']}, 95% CI [{ews_validation['ci_95_low_pct']}, "
-          f"{ews_validation['ci_95_high_pct']}], confidence={ews_validation['confidence_level']})")
+    print(f"      Real-ground-truth EWS accuracy (adjacent-tier-tolerant): "
+          f"{ews_validation['accuracy_pct']}% (n={ews_validation['n']}, 95% CI "
+          f"[{ews_validation['ci_95_low_pct']}, {ews_validation['ci_95_high_pct']}], "
+          f"confidence={ews_validation['confidence_level']}) -- exact-match: "
+          f"{ews_validation['exact_match_accuracy_pct']}%, opposite-extreme "
+          f"(aman<->bahaya) error rate: {ews_validation['opposite_extreme_error_pct']}%")
 
     print("[4/5] Generating narratives for flagged (waspada/bahaya) grids...")
     flagged = combined_grid[combined_grid["ews_code"] > 0]

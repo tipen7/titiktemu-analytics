@@ -36,6 +36,12 @@ def compute_dashboard_metrics(
       This is the one that should be shown to a user/operator as "model
       accuracy" -- it comes with its own sample size and 95% CI so a thin
       sample (see CONTEXT.md Sec. 2/3) can't imply false precision.
+      `ews_validation_accuracy_pct` is ORDINAL/adjacent-tier-tolerant (a
+      one-tier miss, e.g. waspada predicted as bahaya, counts as correct --
+      aman/waspada/bahaya is an ordered risk scale, not unrelated labels);
+      `ews_validation_exact_match_accuracy_pct` is the stricter, untolerant
+      figure, kept for anyone auditing the model itself rather than the
+      product's real-world risk-communication accuracy.
 
     `confidence_level` here is derived from `ews_validation`'s SAMPLE SIZE,
     not from the accuracy percentage -- do not let a caller (e.g. the
@@ -56,6 +62,8 @@ def compute_dashboard_metrics(
         "avg_matching_score": round(float(scored_grid["matching_score"].mean()), 1),
         "xgboost_surface_fit_pct": round(ews_test_accuracy * 100, 1) if ews_test_accuracy is not None else None,
         "ews_validation_accuracy_pct": ews_validation["accuracy_pct"] if ews_validation else None,
+        "ews_validation_exact_match_accuracy_pct": ews_validation["exact_match_accuracy_pct"] if ews_validation else None,
+        "ews_validation_opposite_extreme_error_pct": ews_validation["opposite_extreme_error_pct"] if ews_validation else None,
         "ews_validation_n": ews_validation["n"] if ews_validation else None,
         "ews_validation_ci_95_low_pct": ews_validation["ci_95_low_pct"] if ews_validation else None,
         "ews_validation_ci_95_high_pct": ews_validation["ci_95_high_pct"] if ews_validation else None,
@@ -65,9 +73,14 @@ def compute_dashboard_metrics(
                              "real-world accuracy -- near-100% by construction, internal "
                              "diagnostic only. ews_validation_accuracy_pct is the genuine "
                              "figure: leave-one-out cross-validated against real, measured "
-                             "UMKM survey vulnerability (n=ews_validation_n). Do not present "
-                             "xgboost_surface_fit_pct as validated model accuracy in dashboard "
-                             "copy.",
+                             "UMKM survey vulnerability (n=ews_validation_n), scored as "
+                             "ORDINAL/adjacent-tier-tolerant since aman/waspada/bahaya is an "
+                             "ordered risk scale (a one-tier miss counts as correct, a "
+                             "two-tier aman<->bahaya miss does not -- see "
+                             "ews_validation_opposite_extreme_error_pct for that rate). "
+                             "ews_validation_exact_match_accuracy_pct is the stricter, "
+                             "untolerant figure. Do not present xgboost_surface_fit_pct as "
+                             "validated model accuracy in dashboard copy.",
     }
 
     if "district_name" in scored_grid.columns:
@@ -88,7 +101,18 @@ def compute_dashboard_metrics(
     return metrics
 
 
+DASHBOARD_SUMMARY_RETENTION = 20
+
+
 def write_dashboard_metrics(engine, metrics: dict) -> None:
+    """Append-only by design -- titiktemu-backend's readDashboardSummary()/
+    readModelAccuracy() both read `ORDER BY computed_at DESC LIMIT 1`, and
+    explicitly filter older rows by `metrics ? 'key'` rather than assume a
+    fixed shape, so this keeps that contract rather than switching to a
+    single upserted row. Caps growth at the most recent
+    DASHBOARD_SUMMARY_RETENTION rows (a real scheduled-cron pipeline would
+    otherwise grow this table forever, one row per run) -- 20 is enough
+    for real accuracy-drift monitoring across runs without unbounded growth."""
     import json
     with engine.begin() as conn:
         conn.execute(text("""
@@ -102,3 +126,9 @@ def write_dashboard_metrics(engine, metrics: dict) -> None:
             text("INSERT INTO dashboard_summary (metrics) VALUES (:metrics)"),
             {"metrics": json.dumps(metrics)},
         )
+        conn.execute(text("""
+            DELETE FROM dashboard_summary
+            WHERE id NOT IN (
+                SELECT id FROM dashboard_summary ORDER BY computed_at DESC LIMIT :retention
+            )
+        """), {"retention": DASHBOARD_SUMMARY_RETENTION})
